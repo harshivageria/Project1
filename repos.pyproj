@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6cd93989-b1dc-417c-ab89-a56aeeb816d2}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile />
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="WebApplication1\Delux room.html" />
+    <Content Include="WebApplication1\Hotel.jpg" />
+    <Content Include="WebApplication1\HtmlPage1.html" />
+    <Content Include="WebApplication1\obj\Debug\WebApplication1.csproj.FileListAbsolute.txt" />
+    <Content Include="WebApplication1\packages\System.Buffers.4.5.1\LICENSE.TXT" />
+    <Content Include="WebApplication1\packages\System.Buffers.4.5.1\THIRD-PARTY-NOTICES.TXT" />
+    <Content Include="WebApplication1\packages\System.Buffers.4.5.1\useSharedDesignerContext.txt" />
+    <Content Include="WebApplication1\packages\System.Buffers.4.5.1\version.txt" />
+    <Content Include="WebApplication1\packages\System.Memory.4.5.3\LICENSE.TXT" />
+    <Content Include="WebApplication1\packages\System.Memory.4.5.3\THIRD-PARTY-NOTICES.TXT" />
+    <Content Include="WebApplication1\packages\System.Memory.4.5.3\useSharedDesignerContext.txt" />
+    <Content Include="WebApplication1\packages\System.Memory.4.5.3\version.txt" />
+    <Content Include="WebApplication1\packages\System.Numerics.Vectors.4.4.0\LICENSE.TXT" />
+    <Content Include="WebApplication1\packages\System.Numerics.Vectors.4.4.0\THIRD-PARTY-NOTICES.TXT" />
+    <Content Include="WebApplication1\packages\System.Numerics.Vectors.4.4.0\useSharedDesignerContext.txt" />
+    <Content Include="WebApplication1\packages\System.Numerics.Vectors.4.4.0\version.txt" />
+    <Content Include="WebApplication1\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\LICENSE.TXT" />
+    <Content Include="WebApplication1\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\THIRD-PARTY-NOTICES.TXT" />
+    <Content Include="WebApplication1\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\useSharedDesignerContext.txt" />
+    <Content Include="WebApplication1\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\version.txt" />
+    <Content Include="WebApplication1\suite room.html" />
+    <Content Include="WebApplication1\Twin bed room.html" />
+    <Content Include="WebApplication2\obj\Debug\WebApplication2.csproj.FileListAbsolute.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="WebApplication1" />
+    <Folder Include="WebApplication1\obj\Debug" />
+    <Folder Include="WebApplication1\packages\System.Buffers.4.5.1" />
+    <Folder Include="WebApplication1\packages\System.Memory.4.5.3" />
+    <Folder Include="WebApplication1\packages\System.Numerics.Vectors.4.4.0" />
+    <Folder Include="WebApplication1\packages\System.Runtime.CompilerServices.Unsafe.4.5.2" />
+    <Folder Include="WebApplication2\obj\Debug" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
